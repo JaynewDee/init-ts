@@ -9,6 +9,8 @@ fi
 
 project_name=$1
 
+echo "Writing ${project_name} to $(pwd)"
+
 mkdir $project_name
 cd $project_name
 
